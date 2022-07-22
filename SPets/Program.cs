@@ -31,7 +31,8 @@ Sinta - se à vontade para navegar por nossas opções.
             //1-produtos, serviço, adotar, pagar e sair
             do
             {
-                WriteLine("\nDigite 1 para acessar nosso estoque de produtos\n" +
+                WriteLine("\n------ Escolha uma das opções abaixo ------\n" +
+                    "Digite 1 para acessar nosso estoque de produtos\n" +
                     "Digite 2 para acessar nossos serviços\n" +
                     "Digite 3 para acessar nossa página de adoção\n" +
                     "Digite 4 para acessar seu carrinho\n" +
