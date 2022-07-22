@@ -22,7 +22,7 @@ namespace SPets.src
 
         public virtual void Prod()
         {
-            WriteLine($"O produto {Produto} custa {Preco} cada unidade.");
+            WriteLine($"\nO produto {Produto} custa {Preco} cada unidade.");
         }
     }
 }

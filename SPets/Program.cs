@@ -31,13 +31,14 @@ Sinta - se à vontade para navegar por nossas opções.
             //1-produtos, serviço, adotar, pagar e sair
             do
             {
-                WriteLine("Digite 1 para acessar nosso estoque de produtos\n" +
+                WriteLine("\nDigite 1 para acessar nosso estoque de produtos\n" +
                     "Digite 2 para acessar nossos serviços\n" +
                     "Digite 3 para acessar nossa página de adoção\n" +
                     "Digite 4 para acessar seu carrinho\n" +
-                    "Digite 5 para sair da nossa página");
+                    "Digite 5 para consultas veterinárias\n" +
+                    "Digite 6 para sair da nossa página.");
                 opUser = int.Parse(ReadLine());
-                if (opUser > 5)
+                if (opUser > 6)
                 {
                     Clear();
                     WriteLine("Opção inválida!!!\n" +
@@ -49,20 +50,20 @@ Sinta - se à vontade para navegar por nossas opções.
                     case 1:
                         racao.Prod();
                         racao2.Prod();
-                        WriteLine("Selecione o produto que deseja comprar.\n" +
-                            "Digite 1 para ração de cachorro\n" +
+                        WriteLine("\nSelecione o produto que deseja comprar.\n" +
+                            "\nDigite 1 para ração de cachorro\n" +
                             "Digite 2 para ração de gato");
                         int opRacao = int.Parse(ReadLine());
                         if (opRacao == 1)
                             {
-                            WriteLine("Informe a quantidade desejada de ração");
+                            WriteLine("\nInforme a quantidade desejada de ração");
                             int qtdRacao = int.Parse(ReadLine());
                             carrinho = carrinho + (racao.Preco * qtdRacao);
                             WriteLine($"Seu carrinho tem o valor de {carrinho}.\n");
                         }
                         else if (opRacao == 2)
                         {
-                            WriteLine("Informe a quantidade desejada de ração");
+                            WriteLine("\nInforme a quantidade desejada de ração");
                             int qtdRacao2 = int.Parse(ReadLine());
                             carrinho = carrinho + (racao2.Preco * qtdRacao2);
                             WriteLine($"Seu carrinho tem o valor de {carrinho}.\n");
@@ -75,12 +76,12 @@ Sinta - se à vontade para navegar por nossas opções.
                         case 2:
                         banho.Serv();
                         tosa.Serv();
-                        WriteLine("Selecione o serviço desejado.\n" +
-                            "Digite 1 para banho\n" +
+                        WriteLine("\nSelecione o serviço desejado.\n" +
+                            "\nDigite 1 para banho\n" +
                             "Digite 2 para tosa");
                         int opServ = int.Parse(ReadLine());
                         carrinho = carrinho + banho.Preco;
-                        WriteLine($"Seu carrinho tem o valor de {carrinho}.\n");
+                        WriteLine($"\nSeu carrinho tem o valor de {carrinho}.\n");
                         break;
 
                     case 3:
@@ -97,11 +98,15 @@ Sinta - se à vontade para navegar por nossas opções.
                             $"Chave: pagamentos@spets.com");
                         break;
                     case 5:
+                        WriteLine("\nEm nosso petshop temos: \n" +
+                            "A veterinária Ana Lu.\n" +
+                            "Para mais informações, contate-nos em nosso WhatsApp - (11) 4002-8922");
+                        break;
+                    case 6:
                         WriteLine("Volte sempre!!!");
                         break;
-                    
                 }
-            } while (opUser != 5);
+            } while (opUser != 6);
         }
     }
 }

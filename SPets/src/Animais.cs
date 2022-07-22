@@ -19,7 +19,7 @@ namespace SPets.src
         }
         public virtual void Adocao()
         {
-            WriteLine($"O amigo {Nome}, da espécie {Especie}, está procurando um lar.");
+            WriteLine($"\nO amigo {Nome}, da espécie {Especie}, está procurando um lar.");
         }
     }
 }
