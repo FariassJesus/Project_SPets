@@ -1,0 +1,16 @@
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\bin\Debug\net5.0\SPets.exe
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\bin\Debug\net5.0\SPets.deps.json
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\bin\Debug\net5.0\SPets.runtimeconfig.json
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\bin\Debug\net5.0\SPets.runtimeconfig.dev.json
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\bin\Debug\net5.0\SPets.dll
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\bin\Debug\net5.0\SPets.pdb
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.csproj.AssemblyReference.cache
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.GeneratedMSBuildEditorConfig.editorconfig
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.AssemblyInfoInputs.cache
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.AssemblyInfo.cs
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.csproj.CoreCompileInputs.cache
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.dll
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\refint\SPets.dll
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.pdb
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\SPets.genruntimeconfig.cache
+E:\je-fa\Documents\Bootcamp_Gen\Project_Market\SPets\obj\Debug\net5.0\ref\SPets.dll
